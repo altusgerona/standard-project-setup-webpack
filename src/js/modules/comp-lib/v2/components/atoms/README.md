@@ -12,7 +12,7 @@ Adds a button component.
 -   `colored` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Specifies the button's color type. This may only be `"primary"` or `"accent"`. For more information, go [here](https://getmdl.io/components/index.html###buttons-section).
 -   `hideOnLargeScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
 -   `hideOnSmallScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
--   `href` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**  (optional, default `"#"`)
+-   `href` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**  (optional, default `"###"`)
 -   `id` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**
 -   `isDisabled` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
 -   `isFab` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]** Specifies whether the button is a fab button or not. For more information, go [here](https://getmdl.io/components/index.html###buttons-section). (optional, default `false`)
@@ -74,6 +74,58 @@ Adds a title component to CLCard.
 -   `subTitle` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds a subtitle to the card title.
 -   `subTitlePos` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Specifies the position of the subtitle. This may only be `"top"` or `"bottom"`. (optional, default `"bottom"`)
 -   `title` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Specifies the card title text.
+
+### CLIcon
+
+
+
+Adds a CLIcon component that act as the icon
+
+**Parameters**
+
+-   `addClasses` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds optional classes.
+-   `hideOnLargeScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `hideOnSmallScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `id` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**
+
+### CLListItemPrimary
+
+
+
+Adds a CLListItemPrimary component that acts as the items primary component for CLListItem
+
+**Parameters**
+
+-   `addClasses` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds optional classes.
+-   `hideOnLargeScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `hideOnSmallScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `id` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**
+
+### CLListItemSecondaryAction
+
+
+
+Adds a CLListItemSecondaryAction component that acts as the action for the CLListItemSecondary component
+
+**Parameters**
+
+-   `addClasses` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds optional classes.
+-   `hideOnLargeScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `hideOnSmallScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `id` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**
+
+### CLListItemSecondary
+
+
+
+Adds a CLListItemSecondary component that acts as the items secondary component for CLListItem
+
+**Parameters**
+
+-   `addClasses` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds optional classes.
+-   `hideOnLargeScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `hideOnSmallScreen` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]**  (optional, default `false`)
+-   `id` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**
 
 ### CLLogo
 
@@ -268,3 +320,16 @@ Adds a CLTooltip component.
 -   `isLarge` **\[[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)]** Adds the large effect to the tooltip. For more information, go [here](https://getmdl.io/components/index.html###tooltips-section).
 -   `tooltip` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds the tooltip message.
 -   `tooltipPos` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Specifies the position of the tooltip. May only be `"left"`, `"right"`, `"top"`, or `"bottom"`.
+
+### CLVideoPlayer
+
+
+
+Adds a CLVideoPlayer component that embeds a YouTube video via its id.
+
+**Parameters**
+
+-   `addClasses` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]** Adds optional classes.
+-   `id` **\[[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)]**
+-   `videoId` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** Specifies the YouTube video id to embed.
+

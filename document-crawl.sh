@@ -22,6 +22,11 @@ then
   rm temp.txt
 fi
 
+if [ -f new.jsx ];
+then
+  rm new.jsx
+fi
+
 #Goes through each .jsx file and pump out the markdown to temp.txt
 while IFS=  read -r -d $'\0'; do
     echo -e $REPLY >> temp.txt
@@ -39,7 +44,11 @@ IFS=$old_IFS
 for file in "${line[@]}"
 do
   echo $file
-  documentation build $file -f md >> README.md
+  cat $file > new.jsx
+  sed -i 's/import.*//g' new.jsx
+  documentation build new.jsx -f md >> README.md
+  rm new.jsx
+  echo >> README.md
 done
 
 #Formats the README.md file to change all h1s to h3s.
