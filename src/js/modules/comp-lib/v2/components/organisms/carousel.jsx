@@ -3,6 +3,16 @@ import classNames from 'classnames';
 import {CLButton} from './../atoms';
 import {classList, prefix} from './../../libs';
 
+/**
+ * Adds a CLCarousel component.
+ * @param {string} [addClasses] Adds optional classes.
+ * @param {string} [buttonColor]
+ * @param {string} [float="left"] Specifies the float style of the carousel.
+ * @param {string} [height="auto !important"]
+ * @param {string} [id]
+ * @param {Reference} [snackbar] Adds a reference to a CLSnackbar component.
+ */
+
 export class CLCarousel extends React.Component {
   constructor() {
     super();

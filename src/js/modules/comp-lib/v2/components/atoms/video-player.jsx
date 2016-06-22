@@ -6,7 +6,7 @@ import YouTubePlayer from 'youtube-player';
 import random from 'random-js';
 
 /**
- * Adds a CLVideoPlayer component that embde
+ * Adds a CLVideoPlayer component that embeds a YouTube video via its id.
  * @param {string} [addClasses] Adds optional classes.
  * @param {string} [id]
  * @param {string} videoId Specifies the YouTube video id to embed.

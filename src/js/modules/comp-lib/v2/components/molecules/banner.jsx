@@ -4,7 +4,39 @@ import {CLMarkdownRenderer} from './../atoms';
 import {classList, prefix, windowSize} from './../../libs';
 
 /**
- *
+ * Adds a CLBanner component.
+ * @param {string} [addClasses] Adds optional classes.
+ * @param {string} [background]
+ * @param {string} [backgroundAttachment]
+ * @param {string} [backgroundColor]
+ * @param {string} [backgroundGradient]
+ * @param {string} [backgroundImage]
+ * @param {string} [backgroundPosition="center"] Specifies the background's position style.
+ * @param {string} [backgroundRepeat="no-repeat"] Specifies the background's repeat style.
+ * @param {string} [backgroundSize="cover"] Specifies the background's size style.
+ * @param {string} [color]
+ * @param {string} [contentMarginBottom]  Specifies the bottom margin of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_margin-bottom.asp).
+ * @param {string} [contentMarginLeft] Specifies the left margin of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_margin-left.asp).
+ * @param {string} [contentMarginRight] Specifies the right margin of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_margin-right.asp).
+ * @param {string} [contentMarginTop] Specifies the top margin of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_margin-top.asp).
+ * @param {string} [contentPaddingBottom] Specifies the bottom padding of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_padding-bottom.asp).
+ * @param {string} [contentPaddingLeft] Specifies the left padding of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_padding-left.asp).
+ * @param {string} [contentPaddingRight] Specifies the right padding of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_padding-right.asp).
+ * @param {string} [contentPaddingTop] Specifies the top padding of the background. For more information, go [here](http://www.w3schools.com/cssref/pr_padding-top.asp).
+ * @param {string} [contentWidth] Specifies the width of the background. This is used to accomodate different screen sizes. The values for these are `"full"`, `"half"`, and `"quarter"`.
+ * @param {string} [headlineImage] Adds an image in the headline.
+ * @param {Number} [headlineImageHeight=30] Specifies headline image's height in px. Input a string if you want to use percentage e.g. "500%".
+ * @param {string} [headlineText] Adds a text in the headline.
+ * @param {string} [headlinepos] Specifies the alignment of the headline text. For more information, go [here](http://www.w3schools.com/cssref/pr_text_text-align.asp).
+ * @param {Number} [height] Specifies the height of the banner in px. Input a string if you want to use percentage e.g. "500%".
+ * @param {string} [id]
+ * @param {string} [imageUrl] Specifies the image url of the banner.
+ * @param {string} [noSpacing] Adds the noSpacing style of MDL Grid. For more information, go [here](https://getmdl.io/components/index.html#layout-section/grid).
+ * @param {Reference} [snackbar] Adds a reference to a CLSnackbar component.
+ * @param {string} [subtitle] Adds a subtitle text to the banner.
+ * @param {string} [textpos] Specifies the position of the main text.
+ * @param {string} [title] Specifies the title text.
+ * @param {Number} [width="100%"] Specifies the width in px. Input a string if you want to use percentage e.g. "500%".
  *
  */
 export class CLBanner extends React.Component {

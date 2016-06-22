@@ -5,9 +5,14 @@ import {classList, prefix} from './../../libs';
 /**
  * Adds a CLListItem component that acts as the items for CLList
  * @param {string} [addClasses] Adds optional classes.
+ * @param {Boolean} [div=false] Specifies whether the CLListItem would be in a <div> or <ul> tag.
  * @param {Boolean} [hideOnLargeScreen=false]
  * @param {Boolean} [hideOnSmallScreen=false]
  * @param {string} [id]
+ * @param {Reference} [snackbar] Adds a reference to a CLSnackbar component.
+ * @param {Boolean} [threeLine=false] Make CLList have a three-line style. This parameter is exclusive with twoLine.
+ * @param {Boolean} [twoLine=false] Make CLList have a two-line style. This parameter is exclusive with threeLine.
+ *
  */
 
 export class CLListItem extends React.Component {
